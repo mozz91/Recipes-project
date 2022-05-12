@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    display: flex;
+    background: rgb(46, 67, 89);
+    height: 70px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.header div{   
+    color: white;
+    width: 150px;
+}
+
+.header .logo{
+    flex: 1 1 0%;
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bold;
+    
+}
+
+.section1{
+    display: flex;
+    background: rgb(46, 67, 89);
+    height: 400px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section1 div{
+    height: 200px;
+    width: 400px;
+    color: white;
+}
+
+.s1i1 h3{
+    font-size: 40px;
+}
+
+.s1i1 button{
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.s1i2{
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
